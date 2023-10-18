@@ -1,0 +1,41 @@
+/******************carousel**********************/
+#carousel{position:relative;padding: 0px 0 0px 0px;line-height:18px;}
+	.car_box .es-carousel{overflow:hidden;height:1113px;}
+	.car_box1 .es-carousel{overflow:hidden;height:850px !important;}
+		#carousel li{float:left; position:relative;padding: 0 0px 0px 0px;position:relative;}
+    #carousel li .title{font-size: 18px; line-height: 22px; color: #010101;font-family:Georgia, serif;padding: 1px 0 8px}
+#carousel .es-nav-prev, #carousel .es-nav-next{
+	display:block !important;
+	width:14px;
+	height:23px;
+	overflow:hidden;
+	position:absolute;
+	top:-63px;
+	text-indent: -100%;
+	font-size:0;
+	line-height:0;
+	white-space: nowrap;
+	cursor:pointer;
+	z-index:996;
+}
+#carousel .es-nav-prev{background-image:url(../images/car_prev.png); right:20px;}
+#carousel .es-nav-next{background-image:url(../images/car_next.png); right:-1px;}
+	#carousel .es-nav-prev:hover, #carousel .es-nav-next:hover{background-position:0 -23px;}
+
+/*-------------------------------------------------------------------*/
+
+@media only screen and (max-width: 995px) {
+ #carousel li{width:235px !important;}
+}
+
+@media only screen and (max-width: 767px) {
+#carousel li{width:200px !important;margin-right:10px !important;}
+.car_box .es-carousel{overflow:hidden;height:1020px;}
+.car_box1 .es-carousel{overflow:hidden;height:810px !important;}
+}
+
+@media only screen and (max-width: 479px) {
+	 #carousel li{width:290px !important;border:none;}
+	 .car_box .es-carousel{overflow:hidden;height:1113px;}
+	 .car_box1 .es-carousel{overflow:hidden;height:850px !important;}
+}

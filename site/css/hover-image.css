@@ -1,0 +1,20 @@
+.photo .img_wrap{
+	position:relative;
+	overflow:hidden;
+	display:block;
+	}
+.photo .img_wrap span {
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background: #000 url(../images/magnify.png) no-repeat -150% -150%;
+	z-index:1;
+}
+.photo .img_wrap img {
+	position:relative;
+	z-index:2;
+}
+.photo .img_wrap:hover span{background-position:50% 50%;}

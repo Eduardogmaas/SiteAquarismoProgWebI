@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+html, body {
+	min-width:300px;
+	height:auto;
+	background:transparent;
+}
+
+body {
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#969493; -webkit-text-size-adjust: none;
+}
+#search-results{
+	padding:20px 10px 0px 5px;
+	overflow:hidden;
+}
+
+#search-results iframe html{
+	border:none;
+}
+#search-results iframe {
+	min-width:300px;
+}
+
+a{text-decoration:none;}
+ol.search_list {
+	margin-left: 15px;
+	list-style-type:none;
+	counter-reset: ol;
+}
+ol.search_list li:before {
+content: counter(ol) ".";
+counter-increment: ol;
+float:left;
+display:block;
+width:20px;
+text-align:right;	
+padding-right:10px;
+margin:5px 0px 0 -30px
+}
+ol.search_list li {
+	padding-bottom:20px;
+	margin-left:15px;
+	margin-bottom:10px;
+}
+span.match {
+	color:#fff;
+	font-size:11px;
+	display:block;
+	
+}
+span.search {
+	color:#fff;
+	display:inline-block;
+}
+.search_link{
+	text-decoration: underline;
+}
+.search_link:hover{
+	text-decoration: none;
+}
+h4{font-weight:normal;font-family: 'Oleo Script', cursive;font-size: 20px; line-height: 24px;}
+h4 a{color:#fff;text-decoration:none !important;}
+h4 a:hover{color:#ef561b;}
+
