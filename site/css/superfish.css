@@ -5,7 +5,7 @@ nav{ position:relative; margin: 0px 0px 0 0;background:#131313;border-bottom:1px
 .sf-menu li {float:left;position:relative}
 
 .sf-menu>li>a{display:block;position:relative; font-size: 12px; line-height: 18px; color:#fff; text-transform:uppercase;padding: 24px 26px 25px;}
-.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{color:#ef561b;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{color:#18ce79;}
 
 .sf-menu>li{border-right:1px solid #212121;background: url('../images/nav_li.jpg') 0 -20px repeat-x;}
 .sf-menu>li:hover,.sf-menu>li.current,.sf-menu>li.sfHover{background-position:0 140px;}

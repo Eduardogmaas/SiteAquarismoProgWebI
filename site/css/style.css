@@ -3,9 +3,9 @@ article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,foot
 /* Global properties ======================================================== */
 html {width:100%}
 
-body {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#969493; min-width:320px; background:url(../images/body_bg.jpg) 50% 0 no-repeat #140e0d fixed; -webkit-text-size-adjust: none;padding: 32px 0 33px;}
+body {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#ffffff; min-width:320px; background:url(../images/Axolotl-Baby-image-1.webp) 50% 0 no-repeat #000000 fixed; -webkit-text-size-adjust: none;padding: 32px 0 33px;}
 
-.main{width:1042px;margin:0 auto;background:#201b1a;}
+.main{width:1042px;margin:0 auto;background:#18ce79;}
 /*********************************fonts*************************************/
 .reg {text-transform:uppercase}
 .f_left {float:left}
@@ -31,11 +31,11 @@ body {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px
 .bg_none{ background:none !important;}
 .bd_none{border:none !important;}
 /*==================================== Links ======================================================== */
-a {color:#969493;outline:none; text-decoration:none; cursor:pointer;}
+a {color:#ffffff;outline:none; text-decoration:none; cursor:pointer;}
 a:hover{ color:#fff; text-decoration:none;}
 
-.button{ display:inline-block; padding:9px 24px 9px; margin: 22px 0 0; font-size: 11px; line-height:14px; color:#ef561b; background:#131313;text-transform:uppercase;}
-.button:hover{ background:#ef561b;color:#fff;}
+.button{ display:inline-block; padding:9px 24px 9px; margin: 22px 0 0; font-size: 11px; line-height:14px; color:#18ce79; background:#000000;text-transform:uppercase;}
+.button:hover{ background:#ffffff;color:#18ce79;}
 
 /*********************************Displays*************************************/
 .block{ display:block;}
@@ -48,9 +48,9 @@ header h1{width:231px;float:left;margin-left:11px;}
 header h1 a {display:block;width:231px;height:45px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
 
 #search{float:right;margin: 20px 0px 0 0;padding: 0 8px 0;overflow:hidden;}
-#search input{border-radius: 4px 0 0 4px; padding: 7px 10px; height:15px; background:#e2e2e2;border:none; float:left;width:130px;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
-#search a{display:block;float:left;background: url('../images/search_button.png') 11px 10px no-repeat #444343;width:33px;height:29px;border-radius: 0 4px 4px 0;}
-#search a:hover{background-color:#d65a2b;}
+#search input{border-radius: 4px 0 0 4px; padding: 7px 10px; height:15px; background:#ffffff;border:none; float:left;width:130px;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#search a{display:block;float:left;background: url('../images/search_button.png') 11px 10px no-repeat #18ce79;width:33px;height:29px;border-radius: 0 4px 4px 0;}
+#search a:hover{background-color:rgb(0, 255, 255);}
 
 #main_page header{padding-bottom:43px;}
 
@@ -100,8 +100,8 @@ a.img_wrap, .sf-menu li, .sf-menu a, .button{-webkit-transition: all 0.5s ease;-
 .ext_list>li>figure, .ext_box>figure{ float:left;}
 .ext_list>li>div, .ext_box>div{overflow:hidden;}
 
-.img_wrap{border-top:7px solid #342d2c;border-bottom:7px solid #342d2c;border-left:8px solid #342d2c;border-right:8px solid #342d2c;display:inline-block;}
-a.img_wrap:hover{border-color:#ef561b;}
+.img_wrap{border-top:7px solid #000000;border-bottom:7px solid #000000;border-left:8px solid #000000;border-right:8px solid #000000;display:inline-block;}
+a.img_wrap:hover{border-color:#ffffff;}
 
 .welcome{}
 .welcome>figure{margin: 4px 20px 0 0;}
@@ -127,7 +127,7 @@ a.img_wrap:hover{border-color:#ef561b;}
 .testim:before{width:20px;height:18px;position:absolute;left:23px;top:-18px;background: url('../images/testim_bef.png') no-repeat;display:block;content:"";}
 
 .white{color:#fff;}
-a.white:hover{color:#d65a2b;}
+a.white:hover{color:#18ce79;}
 
 /*********************************page_2*************************************/
 
@@ -149,7 +149,7 @@ a.white:hover{color:#d65a2b;}
 .photo .text{float:left;width:200px;}
 .photo .price{overflow:hidden;font-size: 32px; line-height: 39px; color: #fff;padding: 17px 0 0 15px; text-align:center;}
 .car_box1 .photo a{color:#fff;}
-.car_box1 .photo a:hover{color:#ef561b;}
+.car_box1 .photo a:hover{color:#18ce79;}
 
 
 
@@ -190,7 +190,7 @@ a.white:hover{color:#d65a2b;}
 /****************************footer************************/
 footer {padding:27px 53px 26px;background:#0b0b0b;}
 footer, footer a{color:#fff;}
-footer a:hover{color:#ef561b;}
+footer a:hover{color:#18ce79;}
 
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
