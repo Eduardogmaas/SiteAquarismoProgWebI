@@ -44,8 +44,8 @@ a:hover{ color:#fff; text-decoration:none;}
 /*********************************header*************************************/
 
 header {padding: 45px 0 43px;}
-header h1{width:231px;float:left;margin-left:11px;}
-header h1 a {display:block;width:231px;height:45px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;}
+header h1{width:231px;float:left;margin-left:11px;font-size:80px;font-family: 'Oleo Script', cursive;}
+/* header h1 a {display:block;width:231px;height:45px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;} */
 
 #search{float:right;margin: 20px 0px 0 0;padding: 0 8px 0;overflow:hidden;}
 #search input{border-radius: 4px 0 0 4px; padding: 7px 10px; height:15px; background:#ffffff;border:none; float:left;width:130px;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
@@ -103,8 +103,9 @@ a.img_wrap, .sf-menu li, .sf-menu a, .button{-webkit-transition: all 0.5s ease;-
 .img_wrap{border-top:7px solid #000000;border-bottom:7px solid #000000;border-left:8px solid #000000;border-right:8px solid #000000;display:inline-block;}
 a.img_wrap:hover{border-color:#ffffff;}
 
-.welcome{}
-.welcome>figure{margin: 4px 20px 0 0;}
+/* segunda imagem dps do H2 */
+.welcome{} 
+.welcome>figure{margin: 4px 20px 0 0; size: 15px;}
 
 .stripe1{background: url('../images/stripe.jpg') 50% bottom no-repeat;padding-bottom:47px;margin-bottom:38px;}
 .stripe2{background: url('../images/stripe.jpg') 50% bottom no-repeat;padding-bottom:49px;margin-bottom:41px;}
@@ -158,7 +159,7 @@ a.white:hover{color:#18ce79;}
 
 
 /* Contact form */
-#contact-form {padding:0px 0 0 0;}
+/* #contact-form {padding:0px 0 0 0;}
 #contact-form .success {width:246px; margin-bottom:20px; padding:10px; position:absolute;}
 #contact-form textarea, #contact-form input {margin:0;font-size:12px; border:none; color:#949291; padding:11px 13px;outline:none; position:relative; font-family:Arial, Helvetica, sans-serif;background:#2b2726;border-radius: 0;}
 #contact-form input {width:325px;float:left;}
@@ -186,7 +187,7 @@ a.white:hover{color:#18ce79;}
 .adress dt{ margin-bottom:18px;}
 
 .demo{}
-.demo:hover{ text-decoration:underline;}
+.demo:hover{ text-decoration:underline;} */
 /****************************footer************************/
 footer {padding:27px 53px 26px;background:#0b0b0b;}
 footer, footer a{color:#fff;}
