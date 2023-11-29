@@ -3,7 +3,7 @@ article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,foot
 /* Global properties ======================================================== */
 html {width:100%}
 
-body {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#ffffff; min-width:320px; background:url(../images/Axolotl-Baby-image-1.webp) 50% 0 no-repeat #000000 fixed; -webkit-text-size-adjust: none;padding: 32px 0 33px;}
+body { text-align: justify; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px; color:#ffffff; min-width:320px; background:url(../images/Axolotl-Baby-image-1.webp) 50% 0 no-repeat #000000 fixed; -webkit-text-size-adjust: none;padding: 32px 0 33px;}
 
 .main{width:1042px;margin:0 auto;background:#18ce79;}
 /*********************************fonts*************************************/
@@ -45,7 +45,6 @@ a:hover{ color:#fff; text-decoration:none;}
 
 header {padding: 45px 0 43px;}
 header h1{width:231px;float:left;margin-left:11px;font-size:80px;font-family: 'Oleo Script', cursive;}
-/* header h1 a {display:block;width:231px;height:45px;background:url(../images/logo.png) 0 0 no-repeat; text-decoration:none; text-indent:-9999px;} */
 
 #search{float:right;margin: 20px 0px 0 0;padding: 0 8px 0;overflow:hidden;}
 #search input{border-radius: 4px 0 0 4px; padding: 7px 10px; height:15px; background:#ffffff;border:none; float:left;width:130px;font-family:Arial, Helvetica, sans-serif;font-size:12px;}
@@ -65,7 +64,7 @@ header h1{width:231px;float:left;margin-left:11px;font-size:80px;font-family: 'O
 
 /*===============================>> Paragraphs <<=============================*/
 
-p {margin-bottom:18px}
+ p { margin-bottom:18px;}
 .p2{ margin-bottom:16px;}
 .p3{ margin-bottom:14px;}
 .p4{ margin-bottom:19px;}
@@ -83,7 +82,7 @@ h2{font-size: 30px; line-height: 36px; color:#fff; margin-bottom:28px;}
 h2 span{display:block;margin-top:-1px;}
 
 h2.ind{ margin-bottom:30px;}
-h2.ind1{ margin-bottom:25px;}
+h2.ind1{ margin-bottom:80px;}
 h2.ind2{ margin-bottom:33px;}
 h2.ind3{ margin-bottom:35px;}
 h2.ind4{ margin-bottom:26px;}
@@ -134,60 +133,16 @@ a.white:hover{color:#18ce79;}
 
 .features>li{margin-bottom:37px;}
 .features>li>div{padding-top:5px;}
-.features>li>figure{margin: 0 20px 0 0;}
+.features>li>figure{margin: 20px 20px 20px 20px;}
 
 .testim1{}
 .testim1>div{padding-right:0px;}
-.testim1>figure{margin: 5px 20px 0 0;}
+.testim1>figure{margin: 20px 20px 20px 20px;}
 /*********************************page_3*************************************/
 .m_bot1{margin-bottom:38px;}
 
 .photo p{margin-bottom:17px;}
 
-/*********************************page_5*************************************/
-
-/*.photo{overflow:hidden;}
-.photo .text{float:left;width:200px;}
-.photo .price{overflow:hidden;font-size: 32px; line-height: 39px; color: #fff;padding: 17px 0 0 15px; text-align:center;}
-.car_box1 .photo a{color:#fff;}
-.car_box1 .photo a:hover{color:#18ce79;}*/
-
-
-
-/*********************************page_6*************************************/
-
-
-
-/* Contact form */
-/* #contact-form {padding:0px 0 0 0;}
-#contact-form .success {width:246px; margin-bottom:20px; padding:10px; position:absolute;}
-#contact-form textarea, #contact-form input {margin:0;font-size:12px; border:none; color:#949291; padding:11px 13px;outline:none; position:relative; font-family:Arial, Helvetica, sans-serif;background:#2b2726;border-radius: 0;}
-#contact-form input {width:325px;float:left;}
-#contact-form textarea {overflow:auto; width:514px; height:245px;resize:none; float:left; margin: 0 0 0 0;}	
-#contact-form label {display:block; min-height:45px; overflow:hidden;}	
-#contact-form label.message { display:block; padding-bottom:0; }
-#contact-form .button {margin-left:8px;}	
-#contact-form .error, #contact-form .empty, #contact-form .success {display:none;}	
-#contact-form .error, #contact-form .empty {text-align:left; color:red; font-size:11px; line-height:14px;float:left;padding-top:8px;}
-#contact-form .buttons2 {overflow:hidden;text-align:right; position:relative; clear:both; padding-top:13px;}
-#contact-form .buttons2 a {
-	cursor:pointer;
-	margin-top:0;
-	text-align:center;
-}
-#contact-form span{ display:block; margin: 0px 0 0 5px;}
-
-.map_wrapper{overflow:hidden;display:inline-block;margin-bottom:17px;}
-#map_canvas {
-   width:364px;
-   height:211px;
-}
-.adress{}
-.adress span{ display:inline-block; width:83px;}
-.adress dt{ margin-bottom:18px;}
-
-.demo{}
-.demo:hover{ text-decoration:underline;} */
 /****************************footer************************/
 footer {padding:27px 53px 26px;background:#0b0b0b;}
 footer, footer a{color:#fff;}
