@@ -33,10 +33,6 @@
 					 <li><a href="index-2.html">conservação</a></li>
 					 <li><a href="index-3.html">documentário</a></li>
 				</ul>
-				<form id="search" action="search.php" method="GET" accept-charset="utf-8">
-					 <input type="text" name="s" />
-					 <a onclick="document.getElementById('search').submit()"></a>
-				 </form>
 				<div class="clear"></div>
 		  </div>
 	 </nav>
@@ -74,7 +70,6 @@
 						  <div class="ext_box welcome">
 								<figure><a href="#" class="img_wrap"><img src="images/axolote6.jpg" alt="" /></a></figure>
 							</div>
-						  <a href="#" class="button">read more</a>
 					 </article>
 					 <article class="grid_4">
 						  <h2 class="ind1">Axolote e a Ciência</h2>
@@ -89,6 +84,28 @@
 				 </div>
 				
 			 </div>
+		  </section>
+		  <section>
+			<div class="wrapper stripe3"></div>
+			<div id="doacao">
+				<h1>Doação</h1><p></p>
+				<label for="metodo">Escolha o método de pagamento:</label>
+				<select id="metodo" onchange="atualizarMetodo()">
+					<option value="dinheiro">Dinheiro</option>
+					<option value="cartao">Cartão</option>
+					<option value="pix">PIX</option>
+					<option value="boleto">Boleto</option>
+				</select>
+		
+				<label for="valor">Digite o valor desejado:</label>
+				<input type="text" id="valor" placeholder="Digite o valor em R$">
+	
+				<button onclick="doar()">Doar</button>
+				<p>Total Arrecadado: R$<span id="totalArrecadado">0</span></p>
+			</div>
+		
+			<!-- Seu link para o arquivo JavaScript -->
+			<script src="js/doacao.js"></script>
 		  </section>
 	 <!--==============================footer=================================-->
 	 <footer>
