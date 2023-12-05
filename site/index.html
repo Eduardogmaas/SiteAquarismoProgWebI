@@ -91,11 +91,14 @@
 				<h1>Doação</h1><p></p>
 				<label for="metodo">Escolha o método de pagamento:</label>
 				<select id="metodo" onchange="atualizarMetodo()">
-					<option value="dinheiro">Dinheiro</option>
 					<option value="cartao">Cartão</option>
 					<option value="pix">PIX</option>
 					<option value="boleto">Boleto</option>
 				</select>
+				<div id="agradecimento" style="display: none;">
+					<p>Obrigado por doar! Sua contribuição ajuda com a preservação!</p>
+				</div>
+				
 		
 				<label for="valor">Digite o valor desejado:</label>
 				<input type="text" id="valor" placeholder="Digite o valor em R$">
