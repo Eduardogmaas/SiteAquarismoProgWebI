@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conservação dos Axolotes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+	 <script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+	 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	 <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+			 $(window).load(function(){
+				$('.flexslider').flexslider({
+				  start: function(slider){
+					 $('body').removeClass('loading');
+				  }
+				});
+			});
+	</script>
+</head>
+<body id="main_page"> <!--página inicial-->
+<div class="main">
+	 <nav>
+		  <div class="container_12">
+				<ul class="sf-menu">
+					 <li class="current sf-with-ul"><a href="index.html">o axolote</a>
+					 </li>
+					 <li><a href="index-1.html">habitat natural</a></li>
+					 <li><a href="index-2.html">conservação</a></li>
+					 <li><a href="index-3.html">documentário</a></li>
+				</ul>
+				<div class="clear"></div>
+		  </div>
+	 </nav>
+	 <header>
+		  <div class="container_12">
+	 <!--==============================header=================================-->
+				<h1><a class="logo" href="index.html">Axolote</a></h1>
+				<div class="wrapper stripe3">
+				</div>
+		  </div>
+	</header>
+		  <!-- Gallery Start --><!--carrossel da pagina inicial-->
+		  <div class="flexslider">
+          <ul class="slides">
+            <li>
+					 <img src="images/axolote1.jpg" alt="">
+  	    		</li>
+  	    		<li>
+					 <img src="images/axolote2.webp" alt="">
+  	    	   </li>
+  	    		<li>
+					 <img src="images/axolote3.jpg" alt="">
+  	    	   </li>
+          </ul>
+		  
+        </div>
+		  <!-- Gallery End -->
+	 <!--==============================content================================-->
+		  <section id="content" class="cont_pad">
+			<div class="wrapper stripe1"></div>
+				<div class="container_12">
+					 <div class="wrapper">
+					 <article class="grid_8">
+						  <h2 class="ind">Super regenerador !</h2>
+						  <div class="ext_box welcome">
+								<figure><a href="#" class="img_wrap"><img src="images/axolote6.jpg" alt="" /></a></figure>
+							</div>
+					 </article>
+					 <article class="grid_4">
+						  <h2 class="ind1">Axolote e a Ciência</h2>
+						  <ul class="list1">
+								<li><a href="#">O axolote, uma espécie de salamandra aquática originária do México, é notável por sua extraordinária capacidade de regeneração. Esses pequenos anfíbios têm a habilidade única de regenerar partes do corpo, incluindo membros, coração, cérebro e até mesmo a medula espinhal. Essa capacidade distinta torna o axolote um fenômeno fascinante na biologia.</a></li>
+								<li><a href="#">Ao contrário de outros vertebrados, que frequentemente formam cicatrizes após ferimentos graves, o axolote é capaz de regenerar tecidos sem deixar vestígios. Se um axolote perder uma pata, por exemplo, ele pode regenerá-la completamente, incluindo ossos, músculos e nervos, em questão de semanas. Essa notável capacidade de regeneração ocorre ao longo de toda a vida do axolote, tornando-o um verdadeiro mestre na arte da autorreparação.</a></li>
+								<li><a href="#">Os cientistas estão intensamente interessados no estudo do axolote para entender os mecanismos moleculares e celulares por trás dessa habilidade regenerativa. A esperança é que insights derivados dessa pesquisa possam ser aplicados em medicina regenerativa para humanos, oferecendo novas abordagens para tratar lesões e doenças degenerativas.</a></li>
+								<li><a href="#">Em um mundo onde a regeneração de tecidos é muitas vezes limitada, a capacidade do axolote de se curar e se recriar é verdadeiramente inspiradora. Esse pequeno anfíbio não apenas encanta pela sua aparência peculiar, mas também pela promessa que traz para o campo da ciência e da medicina, sugerindo caminhos inovadores para a cura e a regeneração em seres vivos.</a></li>
+								<li><a href="#">Essa capacidade única destaca a complexidade dos mecanismos biológicos envolvidos no processo regenerativo, oferecendo insights valiosos para a pesquisa científica sobre a plasticidade e adaptabilidade das células em resposta a danos.</a></li>
+						  </ul>
+					 </article>
+				 </div>
+				
+			 </div>
+		  </section>
+		  <section>
+			<div class="wrapper stripe3"></div>
+			<div id="doacao">
+				<h1>Doação</h1><p></p>
+				<label for="metodo">Escolha o método de pagamento:</label>
+				<select id="metodo" onchange="atualizarMetodo()">
+					<option value="cartao">Cartão</option>
+					<option value="pix">PIX</option>
+					<option value="boleto">Boleto</option>
+				</select>
+				<div id="agradecimento" style="display: none;">
+					<p>Obrigado por doar! Sua contribuição ajuda com a preservação!</p>
+				</div>
+				
+		
+				<label for="valor">Digite o valor desejado:</label>
+				<input type="text" id="valor" placeholder="Digite o valor em R$">
+	
+				<button onclick="doar()">Doar</button>
+				<p>Total Arrecadado: R$<span id="totalArrecadado">0</span></p>
+			</div>
+		
+			<!-- Seu link para o arquivo JavaScript -->
+			<script src="js/doacao.js"></script>
+		  </section>
+	 <!--==============================footer=================================-->
+	 <footer>
+		  Axolotes &nbsp;&copy; 2023&nbsp; 
+	 </footer>
+	 </div>
+</body>
+</html>
